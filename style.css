@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans);
+
+body {
+	background-color: rgba(0,0,0,0.1);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+button {
+	background-color: rgba(0,0,204, 0.6);
+    margin-left: 7.5%;
+    padding: 0.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+	background-color: rgba(0,0,204, 0.9)
+}
+
+button#cookie, button#addCookie {
+	margin: 0 auto;
+	background-color: rgba(255, 153, 204,0.7);
+	width: 100%;
+}
+
+button#customize, button#addCookie {
+	margin-top: 0.4em;
+}
+
+button#addCookie{
+	margin-left: 15%;
+	width: 75%;
+}
+
+button#cookie:hover, button#addCookie:hover{
+	background-color: rgba(255, 153, 204,1);
+}
+
+div#chuckWrapper {
+	margin: 0 auto;
+	width: 65%;
+}
+
+div#cookieWrapper {
+	background-color: rgba(255,255,255,1);
+	border-radius: 10px;
+	margin: 2em auto 5em auto;
+	padding: 2em;
+	width: 32%;
+}
+
+div#jokes p, ol{
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 1.5em;
+}
+
+
+h1, h2 {
+	color: rgba(0,0,204,1);
+	font-family: 'Amatic SC', cursive;
+	margin: 0.3em auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	border-top: 5px solid rgba(255,255,255,1);	
+	font-size: 3em;
+}
+
+li{
+	padding-bottom: 0.3em;
+}
+
+li:nth-child(odd){
+	color: rgb(0,0,204);
+}
+
+input[type="text"]{
+    display: block;
+    margin: 0;
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    box-shadow: none;
+    padding: 0.2em;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0,0,204, 0.2);
+}
+
+	div#cookieWrapper input[type="text"]{
+	    background-color: rgba(255, 153, 204,0.6);
+	    width: 100%;
+	}
+
+table{
+	margin: 0 auto;
+	width: 80%;
+}
+
+	div#chuckWrapper table {
+		margin: 0 auto;
+		width: 60%;
+	}
+
+	div#chuckWrapper td:nth-child(odd){
+		text-align: right;
+		width: 20%;
+	}
+
+	div#chuckWrapper td:nth-child(even){
+		width: 60%;
+	}
+
+ol{
+	list-style: inside;
+}
+
+p{
+	margin: 1.2em auto;
+	text-align: center;
+}
+
+span {
+	color: rgba(0,0,204,1);
+}
